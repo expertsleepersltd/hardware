@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-04-14T14:03:25Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "1U_display_adaptor_v1"
+        },
+        "Owner": "Andrew Ostler <os@expert-sleepers.co.uk>",
+        "Size": {
+            "X": 70.8,
+            "Y": 39.65
+        }
+    }
+}
