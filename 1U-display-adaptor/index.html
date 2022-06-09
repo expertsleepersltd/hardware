@@ -18,11 +18,20 @@ The GitHub project page is <a href="https://github.com/expertsleepersltd/hardwar
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhnIO_5Zk2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<h1>BOM</h1>
+
+<p>
+The project consists of the PCB and two connectors. One is a common-or-garden through hole 7-way 0.1" pitch header. The other is a surface mount 16-way 0.1" pitch header, Samtec part number SSM-116-L-SV.
+
+<p>
+Note that the PCB footprint is for the 20-way version, SSM-120-L-SV, but the 16-way version is slightly cheaper and provides all the necessary connections.
+  
 <h1>Compatible displays</h1>
 
 <p>
 The board is designed for use with the ER-OLEDM023-1 display modules by <a href="https://www.buydisplay.com/">BuyDisplay.com</a> (aka EastRising). Choose the "Pin Header Connection-4 Wire SPI" option.
 
+<p>
 Colour options:
   <ul>
     <li><a href="https://www.buydisplay.com/arduino-2-2-inch-128x32-oled-breakout-board-display-module-blue-on-black">blue</a>
@@ -43,4 +52,8 @@ disting EX firmware version 1.14 or higher is required. Enable the second displa
 
 <h2>Connection</h2>
 
-TBD
+<p>
+On the disting EX, connections are mainly made to the FHX expansion header (GT2), with one connection to the ICSP header (for 3.3V power).
+
+<p>
+<img src="disting_ex_display_connection.jpg" />
