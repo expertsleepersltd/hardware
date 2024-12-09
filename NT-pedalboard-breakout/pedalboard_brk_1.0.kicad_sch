@@ -1,0 +1,55 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 586ea0e6-c5ea-4165-88e3-d0100509c84a)
+
+  (paper "A4")
+
+  (title_block
+    (title "disting NT pedalboard breakout")
+    (date "2024-11-14")
+    (rev "1.0")
+    (company "Expert Sleepers Ltd")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 59.69 55.88) (size 34.29 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a31c107e-0ca8-4600-8196-a2289946c1d4)
+    (property "Sheetname" "supplies" (at 59.69 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "supplies.kicad_sch" (at 59.69 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pedalboard_brk_1.0"
+        (path "/586ea0e6-c5ea-4165-88e3-d0100509c84a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 118.11 55.88) (size 34.29 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ac4936dc-176e-4a0a-ba0d-45ff5e81ef5f)
+    (property "Sheetname" "connections" (at 118.11 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connections.kicad_sch" (at 118.11 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pedalboard_brk_1.0"
+        (path "/586ea0e6-c5ea-4165-88e3-d0100509c84a" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
